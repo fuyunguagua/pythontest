@@ -1,0 +1,5 @@
+ï»¿#!usr/bin/env python
+'''¼ÆËãÒ»¶ÎÎÄ±¾ÖĞ·Ç¿Õ°×µ¥´ÊµÄÊıÁ¿'''
+f = open('words.txt','r')
+print len([word for line in f for word in line.split()])
+f.close()
